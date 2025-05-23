@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f3f4f6;
+  color: #1f2937;
+}
+
+.App {
+  text-align: center;
+  padding: 2rem;
+}
+
+.title {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.container {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+#editor, #preview {
+  width: 45%;
+  min-height: 300px;
+  padding: 1rem;
+  border: 1px solid #d1d5db;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+  overflow: auto;
+}
+
+#editor {
+  resize: vertical;
+}
+
+footer {
+  margin-top: 2rem;
+  font-size: 0.9rem;
+}
+
+footer a {
+  color: #2563eb;
+  text-decoration: none;
+}
